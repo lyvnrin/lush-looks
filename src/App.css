@@ -6,23 +6,23 @@
   overflow: hidden;
 }
 
-/* Fullscreen Silk background */
+/* silk background */
 .background-canvas {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1; /* behind content */
+  z-index: -1;
 }
 
-/* NAVBAR */
+/* navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 3rem;
-  position: relative; /* keep above canvas */
+  position: relative;
   z-index: 1;
 }
 
@@ -44,7 +44,7 @@
   opacity: 0.75;
 }
 
-/* HERO */
+/* hero */
 .hero {
   height: calc(100vh - 90px);
   width: 100vw;
@@ -55,7 +55,7 @@
   text-align: center;
   padding: 0 2rem;
   position: relative;
-  z-index: 1; /* above canvas */
+  z-index: 1;
 }
 
 .hero h1 {
@@ -73,7 +73,7 @@
   color: #fff;
 }
 
-/* BUTTON */
+/* button */
 .cta-btn {
   background-color: #ffffff;
   color: #b14f6f;
